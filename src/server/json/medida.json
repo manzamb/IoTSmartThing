@@ -1,0 +1,40 @@
+{
+   "entidad": {
+      "@nombre": "mesa",
+      "recursoIoT": [
+         {
+            "@tipo": "sensor",
+            "caracteristica": {
+               "@propiedad": "temperatura"
+            },
+            "medicion": "24",
+            "unidad": "grados",
+            "hora": {
+               "@utc": "-5",
+               "#text": "7:26"
+            },
+            "lugar": {
+               "@lat": "24.7",
+               "@lon": "76.5",
+               "@ele": "1756"
+            }
+         },
+         {
+            "@tipo": "actuador",
+            "caracteristica": {
+               "@propiedad": "luz"
+            },
+            "estado": "1",
+            "hora": {
+               "@utc": "-5",
+               "#text": "7:26"
+            },
+            "lugar": {
+               "@lat": "24.7",
+               "@lon": "76.5",
+               "@ele": "1756"
+            }
+         }
+      ]
+   }
+}

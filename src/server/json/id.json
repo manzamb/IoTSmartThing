@@ -1,0 +1,28 @@
+{
+    "@id": "192.168.127.15",
+    "gateway": {
+       "propiedades": {
+          "nombre": "ESP8266",
+          "modelo": "nodemcu 12E",
+          "fabricante": "EspressIf"
+       },
+       "recursos": [
+          {
+             "tipo": "sensor",
+             "senal": "analoga",
+             "voltaje": {
+                "@rangoinicial": "3",
+                "@rangofinal": "30"
+             }
+          },
+          {
+             "tipo": "actuador",
+             "senal": "digital",
+             "voltaje": {
+                "@rangoinicial": "0",
+                "@rangofinal": "5"
+             }
+          }
+       ]
+    }
+ }
